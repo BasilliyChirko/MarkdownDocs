@@ -156,7 +156,7 @@ const globalCatalog = [
 Задачи для реализации:
 
 1. Написать фукнции для выборки товаров
-	1. Получить товар по его id, вернуть объект, вернуть null если такого объекта нет
+	1. Получить товар по его id, вернуть объект, вернуть null или undefined если такого объекта нет
 	```
 	function getItem(id) {
 		//TODO
@@ -204,7 +204,7 @@ const globalCatalog = [
 	```
 	1. Удаление товара из корзины
 	```
-	function removeItemFromCart(itemId, count) {
+	function removeItemFromCart(itemId) {
 		//TODO
 	}
 	```
